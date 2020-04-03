@@ -3,6 +3,9 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import './fonts/GANTIC_Regular.ttf';
+import './fonts/Stereofunk.ttf';
+import './fonts/coolveticarg.ttf';
 
 ReactDOM.render(
   <React.StrictMode>

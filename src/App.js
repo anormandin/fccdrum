@@ -1,24 +1,22 @@
 import React from 'react';
-import logo from './logo.svg';
+
+
+import { Pad } from "./components/pad/Pad";
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        <div className="deck">
+          <Pad label="Kick 1" actionKey="A" />
+          <Pad label="Kick 2" actionKey="S"   />
+          <Pad label="Snare" actionKey="D"   />
+          <Pad label="Clap" actionKey="F"   />
+          <Pad label="Rim" actionKey="G"   />
+          <Pad label="CHat" actionKey="H"   />
+          <Pad label="Tom" actionKey="J"   />
+          <Pad label="Cymbal" actionKey="K"   />
+        </div>
     </div>
   );
 }

@@ -11,3 +11,19 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+@font-face {
+  font-family: 'gantic';
+  src: local('GANTIC_Regular'), url(./fonts/GANTIC_Regular.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'stereofunk';
+  src: local('Stereofunk'), url(./fonts/Stereofunk.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'coolveticarg';
+  src: local('coolveticarg'), url(./fonts/coolveticarg.ttf) format('truetype');
+}
