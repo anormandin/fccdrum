@@ -35,3 +35,9 @@
     background-color: #c7cfd5;
     
 }
+
+.pad-button.active {
+    background-color: palevioletred;
+    border-color: rebeccapurple;
+
+}
